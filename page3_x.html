@@ -1,0 +1,54 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>IP Camera Web Page</title>
+	
+	<meta name="robots" content="index,follow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="page3.css" />
+<link rel="stylesheet" type="text/css" href="resp_menu.css" />
+
+	<div id="header">
+      <h2>Video View<br>Welcome To Vitual Movie House</h2>
+	   </div>
+</head>
+
+<body>
+
+<div id="container">
+   <label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+      <!--  <li><a href="index.html">Home</a></li> -->
+      <!--  <li><a href="#">About</a></li> -->
+                
+        <li><a href="http://10.0.0.7:80"  target="vid_frame" onClick="return loadintoIframe('vid_frame',this.href)">MOTO E4</a>
+        </li>
+        
+        <li><a href="http://10.0.0.109:8080"  target="vid_frame" onClick="return loadintoIframe('vid_frame',this.href)">ZTE</a>
+        </li>
+        
+        <li><a href="http://10.0.0.28:81"  target="vid_frame" onClick="return loadintoIframe('vid_frame',this.href)">Blue Iris</a></li>
+            
+        <li><a href="http://10.0.0.38:80/mjpeg.cgi" target="vid_frame" onClick="return loadintoIframe('vid_frame',this.href)">Reolink</a></li>
+            
+        <li><a href="http://10.0.0.72:80" target="vid_frame" onClick="return loadintoIframe('vid_frame',this.href)">D-Link</a></li>
+    </ul>
+    </div>
+
+<div class="videoWrapper">
+  
+<iframe id="vid_frame" name="vid_frame" src="http://10.0.0.28:81" frameborder="0" scrolling="yes" allowfullscreen seamless="seamless">
+<p>Your browser does not support iframes.</p>
+</iframe>
+</div>
+
+
+<div id="footer">
+   <p>Let Me Know if You Can Read This</p>
+    
+</div>
+
+</body>
+
+</html>

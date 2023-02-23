@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Page 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="SitePoint">
+
+ 
+  <link rel="stylesheet" type="text/css" href="page2.css">
+	 
+	 <script type="text/javascript" src="js_video_player.js" language="javascript"></script>
+	 
+
+<div id="header">
+      <h2>Video View<br>Welcome To Vitual Movie House</h2>
+	   </div>
+      
+    
+</head>
+
+<body>
+<div>
+
+<video controls preload="auto" width="60%" height="" >  
+			<source src="Shy Glizzy.mp4" type="video/mp4" >
+         
+    </video>
+    
+ <!--   <div id="buttonbar" style="display: none;")>
+        <button id="restart" title="Restart button">[]</button> 
+        <button id="slower" title="Slower playback button">-</button> 
+        <button id="rew" title="Rewind button" >&lt;&lt;</button>
+        <button id="play" title="Play button">&gt;</button>
+        <button id="fwd" title="Forward button" >&gt;&gt;</button>
+        <button id="faster" title="Faster playback button">+</button>
+        <button id="Button2" title="Mute button" ><img alt="Volume on button" src="vol2.png" /></button>     
+        <br />
+        <label>Playback </label>
+            <label>Reset playback rate: </label><button id="normal" title="Reset playback rate button">=</button>    
+        
+        <label>  Volume </label>
+            <button id="volDn"  title="Volume down button">-</button>
+            <button id="volUp"  title="Volume up button">+</button>
+            <button id="mute" title="Mute button" ><img alt="Volume on button" src="vol2.png" /></button>        
+    </div>   
+    <br/>  
+    <div id= "inputField" style="display:none;" >
+        <label>Type or paste a video URL: <br/>
+        <input type="text" id="videoFile" style="width: 300px;"  title="video file input field" value="Shy Glizzy.mp4" />        
+        <button id="loadVideo" title="Load video button" >Load</button>
+        </label>
+    </div>
+    <div title="Error message area" id="errorMsg" style="color:Red;"></div>
+
+
+
+</div>-->
+<div id="footer">
+   <p>This is what I call Down Under</p>
+    
+</div>
+
+ <!-- <script src="js/scripts.js"></script> -->
+</body>
+</html>

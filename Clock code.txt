@@ -1,0 +1,5 @@
+clock code
+
+<iframe src="http://free.timeanddate.com/clock/i67186gn/n179/fs12/ahr/avb/th2/ta1" frameborder="0" width="128" height="17"></iframe>
+
+https://www.timeanddate.com/clocks/free.html
